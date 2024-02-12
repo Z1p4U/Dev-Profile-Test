@@ -14,30 +14,40 @@
       rel="stylesheet"
       href="../../node_modules/swiper/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <div class="">
       <!-- nav bar start -->
-      <!-- <div
-        class="container-fluid mx-auto px-10 py-2 d-flex justify-content-between align-items-center bg-transparent position-absolute top-0 z-3"
+      <div
+        class="container-fluid mx-auto px-3 px-md-5 px-lg-7 px-xl-10 py-2 d-flex justify-content-between align-items-center bg-transparent position-absolute top-0 z-3"
       >
         <a
           href="./index.html"
-          class="d-flex flex-row align-items-center gap-3 text-decoration-none text-black"
+          class="flex-row align-items-center gap-3 text-decoration-none text-black"
         >
           <h1 class="pf-logo mb-0">PF</h1>
-          <p class="fs-4 mb-0 fw-medium">Thant Zin Htet</p>
+          <p class="fs-4 mb-0 fw-medium d-none d-lg-block">Thant Zin Htet</p>
         </a>
 
-        <div class="d-flex flex-row align-items-center gap-5">
+        <div class="d-none d-lg-flex flex-row align-items-center gap-5">
           <a class="nav-links" href="./index.html">Home</a>
           <a class="nav-links" href="./skills.html">Skills</a>
           <a class="nav-links" href="./profile.html">Profile</a>
         </div>
 
-        <a href="tel:09123456789" class="contact-btn rounded-pill">Call Now</a>
-      </div> -->
+        <a href="tel:09123456789" class="d-md-block contact-btn rounded-pill"
+          >Call Now</a
+        >
+      </div>
+
       <!-- nav bar end -->
 
       <!-- hero section start -->
@@ -521,6 +531,7 @@
   <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../../node_modules/swiper/swiper-bundle.min.js"></script>
 
+  <!-- Experience Controller -->
   <script>
     var swiper = new Swiper(".mySwiper", {
       breakpoints: {
@@ -548,4 +559,5 @@
       },
     });
   </script>
+  <!-- Experience Controller -->
 </html>
