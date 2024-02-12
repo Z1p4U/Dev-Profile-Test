@@ -1,0 +1,531 @@
+$spacer: 1rem;
+
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 2,
+  6: $spacer * 2.5,
+  7: $spacer * 4,
+  8: $spacer * 6,
+  9: $spacer * 8,
+  10: $spacer * 10,
+);
+
+$secondary: #016a56;
+
+// nav
+.pf-logo {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  width: 65px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #0e0e0e;
+  transition: 0.5s;
+}
+
+.nav-links:hover {
+  color: $secondary;
+}
+
+.contact-btn {
+  background-color: #387cff;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.contact-btn:hover {
+  background-color: #3678f4d0;
+}
+//nav
+
+//hero
+$carousel-indicator-height: 7px;
+$carousel-indicator-width: 7px;
+$carousel-indicator-spacer: 10px;
+$carousel-indicator-active-bg: $secondary;
+
+.label {
+  position: absolute;
+  top: 35%;
+  right: 55%;
+  font-family: lato;
+  letter-spacing: 2px;
+}
+
+.profile {
+  font-size: 20px;
+}
+.profile-desc {
+  width: 300px;
+  font-size: 10px;
+}
+
+@media only screen and (min-width: 680px) {
+  .label {
+    position: absolute;
+    top: 35%;
+    right: 0%;
+    font-family: lato;
+    letter-spacing: 2px;
+  }
+  .profile {
+    font-size: 25px;
+  }
+  .profile-desc {
+    font-size: 15px;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .profile {
+    font-size: 30px;
+  }
+  .profile-desc {
+    width: 300px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .profile {
+    font-size: 40px;
+  }
+  .profile-desc {
+    width: 300px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .profile {
+    font-size: 50px;
+  }
+  .profile-desc {
+    width: 300px;
+    font-size: 15px;
+  }
+}
+
+//hero
+
+//About
+.about-text {
+  font-size: 22px;
+  position: absolute;
+  top: 22%;
+  left: 35%;
+  color: $secondary;
+  text-shadow: 2px 3px #0e0e0e50;
+}
+
+.about-paragraph {
+  width: 150px;
+  font-size: 6px;
+  font-weight: 500;
+  position: absolute;
+  line-height: 10px;
+  top: 50%;
+  right: 8%;
+}
+
+.about-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.about-btn {
+  position: absolute;
+  font-size: 10px;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  top: 75%;
+  right: 30%;
+}
+
+.about-img2 {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-image: url("../../Resources/Images/aboutme2.jpg");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 80%;
+  right: 60%;
+}
+@media only screen and (min-width: 680px) {
+  .about-text {
+    font-size: 37spx;
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    color: $secondary;
+    text-shadow: 2px 5px #0e0e0e50;
+  }
+
+  .about-paragraph {
+    width: 300px;
+    font-size: 9px;
+    font-weight: 500;
+    position: absolute;
+    letter-spacing: 1px;
+    line-height: 15px;
+    top: 50%;
+    right: 1%;
+  }
+
+  .about-img {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+  }
+
+  .about-btn {
+    position: absolute;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    top: 85%;
+    right: 45%;
+  }
+
+  .about-img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url("../../Resources/Images/aboutme2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    right: 65%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .about-text {
+    font-size: 42px;
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    color: $secondary;
+    text-shadow: 2px 5px #0e0e0e50;
+  }
+
+  .about-paragraph {
+    width: 300px;
+    font-size: 9px;
+    font-weight: 500;
+    position: absolute;
+    letter-spacing: 1px;
+    line-height: 15px;
+    top: 50%;
+    right: 1%;
+  }
+
+  .about-img {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+  }
+
+  .about-btn {
+    position: absolute;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    top: 85%;
+    right: 45%;
+  }
+
+  .about-img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url("../../Resources/Images/aboutme2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    right: 65%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .about-text {
+    font-size: 50px;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+    color: $secondary;
+    text-shadow: 2px 5px #0e0e0e50;
+  }
+
+  .about-paragraph {
+    width: 300px;
+    font-size: 10px;
+    font-weight: 500;
+    position: absolute;
+    letter-spacing: 1px;
+    line-height: 17px;
+    top: 50%;
+    right: 6%;
+  }
+
+  .about-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+  }
+
+  .about-btn {
+    position: absolute;
+    padding: 0.4rem 1rem 0.4rem 1rem;
+    top: 85%;
+    right: 30%;
+  }
+
+  .about-img2 {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-image: url("../../Resources/Images/aboutme2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 75%;
+    right: 55%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-text {
+    font-size: 70px;
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    color: $secondary;
+    text-shadow: 2px 5px #0e0e0e50;
+  }
+
+  .about-paragraph {
+    width: 350px;
+    font-size: small;
+    font-weight: 500;
+    position: absolute;
+    word-spacing: 2px;
+    line-height: 22px;
+    top: 54%;
+    right: 10%;
+  }
+
+  .about-img {
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+  }
+
+  .about-btn {
+    position: absolute;
+    padding: 0.6rem 1.6rem 0.6rem 1.6rem;
+    top: 80%;
+    right: 32%;
+  }
+
+  .about-img2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    background-image: url("../../Resources/Images/aboutme2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 78%;
+    right: 53%;
+  }
+}
+//About
+
+//skill set section
+.skill-name {
+  font-size: x-small;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1px;
+}
+//skill set section
+
+// Experiences
+
+.swiper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+* {
+  --swiper-navigation-size: 15px;
+  --swiper-navigation-top-offset: 35%;
+  --swiper-navigation-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  * {
+    --swiper-navigation-size: 15px;
+    --swiper-navigation-top-offset: 32%;
+    --swiper-navigation-color: white;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .wrap {
+    left: 27%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-img {
+    display: block;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  * {
+    --swiper-navigation-size: 15px;
+    --swiper-navigation-top-offset: 32%;
+    --swiper-navigation-sides-offset: 32px;
+    --swiper-navigation-color: white;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .wrap {
+    left: 35%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-img {
+    display: block;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  * {
+    --swiper-navigation-size: 15px;
+    --swiper-navigation-top-offset: 32%;
+    --swiper-navigation-sides-offset: 40px;
+    --swiper-navigation-color: white;
+  }
+}
+
+.year {
+  font-size: 10px;
+  text-align: start;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  font-family: "Lato", sans-serif;
+}
+.position {
+  font-size: 15px;
+  text-align: start;
+  letter-spacing: 2px;
+  color: $secondary;
+  margin-bottom: 0px;
+  font-family: "Lato", sans-serif;
+}
+.company {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: start;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  font-family: "Lato", sans-serif;
+}
+// Experiences
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/utilities/api";
+@import "../../node_modules/animate.css/animate.min.css";
